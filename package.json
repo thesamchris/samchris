@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -13,10 +15,14 @@
     "gatsby-plugin-sharp": "^2.0.36",
     "gatsby-source-filesystem": "^2.0.33",
     "gatsby-transformer-sharp": "^2.1.19",
+    "googleapis": "^39.2.0",
+    "net": "^1.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-google-sheets": "^0.4.0",
+    "react-helmet": "^5.2.1",
+    "tls": "0.0.1"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
